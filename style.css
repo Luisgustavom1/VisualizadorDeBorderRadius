@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+:root{
+    --azul-escuro1: #050626;
+    --azul-escuro2: #080A40;
+    --azul-meio: #0A0E59;
+    --azul-claro1: #1821D9;
+    --azul-claro2: #0F168C;
+}
+body{
+    background-color: var(--azul-escuro1);
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+.titles{
+    margin-top: 100px;
+    text-align: center;
+}
+h1{
+    font-weight: 400;
+    margin-bottom: .7rem;
+    font-size: 1.8rem;
+}
+h4{
+    font-weight: 200;
+}
+
+.container{
+    margin-top: 3rem;
+}
+.box{
+    background-color: var(--azul-claro2);
+    width: 350px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius:;
+    
+}
+.borderNumbers{
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 2rem;  
+}
+.bordas{
+    text-align: center;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+}
+input{
+    width: 2rem;
+    height: 2rem;
+    border-radius: .3rem;
+    font-size: 1rem;
+    text-align: center;
+}
+.showBorder{
+    background-color: gray;
+    width: 350px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    border-radius: .5rem;
+}
